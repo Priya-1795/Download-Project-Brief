@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Important Update</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .link-container {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    button {
+      background:none;
+      border:none;
+      color:#0059b3;
+      cursor:pointer;
+      font-size:1.5rem;
+      font-weight:bold;
+      padding:0;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="link-container">
+    <form action="https://formsubmit.co/your.email@example.com" method="POST">
+      <input type="hidden" name="_subject" value="Phishing Simulation Clicked!" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="thank-you.html" />
+      <button type="submit">
+        Click here to view important update
+      </button>
+    </form>
+  </div>
+</body>
+</html>
